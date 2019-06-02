@@ -255,9 +255,12 @@ h2 {
   margin: 0 auto;
 }
 .fab {
-  font-size: 50px;
+  font-size: 46px;
   color: #000000;
+}
+.fa-twitter {
   padding-right: 15px;
+  padding-left: 15px;
 }
 footer {
   width: auto;
@@ -269,7 +272,8 @@ footer {
   font-size: 16px;
   color: #FAFAFA;
   line-height: 60px;
-}.fa-facebook:before {
+}
+.fa-facebook:before {
     content: "\f09a";
 }
 @media screen and (max-width:768px){
@@ -357,15 +361,29 @@ footer {
 
   .contact-contents {
     width: 90%;
+    margin: 0 auto;
   }
   .MailTell {
     float: none;
-  }
-  .MailTell-contents {
     margin: 0 auto;
+    text-align: center;
+  }
+  .method-container {
+    width: 100%;
   }
   .SNS {
     float: none;
+    margin: 0 auto;
     text-align: center;
+  }
+  .fa-twitter {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  .sns-icon {
+    padding-right: 0px;
+  }
+  .contact-sentence {
+    padding-bottom: 30px;
   }
 }
