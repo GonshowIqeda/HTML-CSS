@@ -61,6 +61,9 @@ header .headline {
 .main-visual-text {
   color: #fff;
 }
+#responsible-br {
+  display: none;
+}
 .main-visual-name {
   margin-top: 30px;
   color: #fff;
@@ -185,4 +188,61 @@ footer {
 }
 .footer-text {
   color: #fff;
+}
+@media screen and (max-width:768px) {
+  .social  {
+    display: none;
+  }
+  .nav-list-item {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .main-visual-content {
+    width: 100%;
+    padding-top: 75px;
+  }
+  main {
+    width: 100%;
+  }
+  #responsible-br {
+    display: block;
+  }
+  .blog {
+    width: 100%;
+  }
+  .blog-box {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  .popular {
+    padding-top: 50px;
+  }
+  .sidebar-contents {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .instagram {
+    width: 100%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  .sidebar {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
