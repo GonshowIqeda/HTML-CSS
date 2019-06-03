@@ -171,8 +171,6 @@ h2 {
     font-size: 16px;
     color: #000000;
 }
-.image_and_detail {
-}
 .img-container {
   float: left;
   width: 50%;
@@ -183,8 +181,6 @@ h2 {
   width: 250px;
   height: 250px;
   margin: 0 auto;
-}
-.detail {
 }
 .myname {
   font-size: 20px;
@@ -205,10 +201,6 @@ h2 {
   font-size: 16px;
   color: #000000;
 }
-/*タイトルの微妙な左揃え
-  番号とメアドのリンク化
-  リンクの色
-  */
 #contact {
   padding-bottom: 90px;
 }
@@ -242,9 +234,11 @@ h2 {
 }
 .address {
   color: #000000;
+  text-decoration: underline;
 }
 .number {
   color: #000000;
+  text-decoration: underline;
 }
 .SNS {
   float: right;
